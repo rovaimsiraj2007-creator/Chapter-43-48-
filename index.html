@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Chapter (43-48)</title>
+</head>
+<body>
+    <!-- Answer 01 -->
+     <div class="Ans01">
+    <a onclick="clickLink()" href="#">Mobile Store</a>
+    </div>
+
+    <!-- Answer 02 -->
+     <div class="mobiles">
+     <div class="firstmob"><img onclick="firstMob()" src="images/iphone17white.jpg" alt=""> <h6>IPHONE 17 PRO MAX</h6></div>
+     <div class="secondmob"><img onclick="secondMob()" src="images/samsung-galaxy-s25-ultra-pakistan-priceoye-zmuf1-270x270.webp" alt=""> <h6>SAMSUNG S25 ULTRA</h6></div>
+     <div class="thirdmob"><img onclick="thirdMob()" src="images/Google-Pixel-10-Pro-XL-Qmart-2.jpg" alt=""> <h6>GOOGLE PIXEL 10 XL</h6></div>
+    </div>
+
+
+    <!-- Answer 03 -->
+      <form onsubmit="addStudent(); return false">
+       <div class="searchbox">
+        <label for="">
+            Student Name: <br> <input type="text" id="studentName">
+        </label>
+        <br>
+        <label for="">
+            Batch: <br> <input type="text" id="studentBatch">
+        </label>
+        <br>
+        <button type="submit">Submit</button>
+        </div>
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Index Number</th>
+                <th>Name</th>
+                <th>Batch</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+            
+        </tbody>
+    </table>
+
+
+    <!-- Answer 04 -->
+     <div class="changeimg">
+     <img src="images/Google-Pixel-10-Pro-XL-Qmart-2.jpg" id="myImg" onmouseover="changeSource('new')" onmouseleave="changeSource()">
+     </div>
+
+ 
+
+    <script src="script.js" ></script>
+</body>
+</html>
