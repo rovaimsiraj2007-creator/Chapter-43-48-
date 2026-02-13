@@ -45,7 +45,7 @@ let students = []
                         <td>${students[i].name}</td>
                         <td>${students[i].batch}</td>
                         <td>
-                            <button onClick="deleteStudent(${i})">Delete</button>
+                            <button class="deletebtn" onClick="deleteStudent(${i})">Delete</button>
                         </td>
                     </tr>
                 `
