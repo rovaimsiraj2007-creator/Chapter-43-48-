@@ -1,38 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Chapter (43-48)</title>
 </head>
+
 <body>
     <!-- Answer 01 -->
-     <div class="Ans01">
-    <a id="mobstore" onclick="clickLink()" href="#">Mobile Store</a>
+    <div class="Ans01">
+        <a id="mobstore" onclick="clickLink()" href="#">Mobile Store</a>
     </div>
 
     <!-- Answer 02 -->
-     <div class="mobiles">
-     <div class="firstmob"><img onclick="firstMob()" src="images/iphone17white.jpg" alt=""> <h6>IPHONE 17 PRO MAX</h6><div id="counter"><button>-</button><p>0</p><button>+</button></div></div>
-     <div class="secondmob"><img onclick="secondMob()" src="images/samsung-galaxy-s25-ultra-pakistan-priceoye-zmuf1-270x270.webp" alt=""> <h6>SAMSUNG S25 ULTRA</h6> <div id="counter"><button>-</button><p>0</p><button>+</button></div></div>
-     <div class="thirdmob"><img onclick="thirdMob()" src="images/Google-Pixel-10-Pro-XL-Qmart-2.jpg" alt=""> <h6>GOOGLE PIXEL 10 XL</h6> <div id="counter"><button>-</button><p>0</p><button>+</button></div></div>
+    <div class="mobiles">
+        <div class="firstmob"><img onclick="firstMob()" src="images/iphone17white.jpg" alt="">
+            <h6>IPHONE 17 PRO MAX</h6>
+            <div class="counter"><button onclick="minus('quantity1')">-</button>
+                <p id="quantity1">0</p><button onclick="plus('quantity1')">+</button>
+            </div>
+        </div>
+        <div class="secondmob"><img onclick="secondMob()"
+                src="images/samsung-galaxy-s25-ultra-pakistan-priceoye-zmuf1-270x270.webp" alt="">
+            <h6>SAMSUNG S25 ULTRA</h6>
+            <div class="counter"><button onclick="minus('quantity2')">-</button>
+                <p id="quantity2">0</p><button onclick="plus('quantity2')">+</button>
+            </div>
+        </div>
+        <div class="thirdmob"><img onclick="thirdMob()" src="images/Google-Pixel-10-Pro-XL-Qmart-2.jpg" alt="">
+            <h6>GOOGLE PIXEL 10 XL</h6>
+            <div class="counter"><button onclick="minus('quantity3')">-</button>
+                <p id="quantity3">0</p><button onclick="plus('quantity3')">+</button>
+            </div>
+        </div>
     </div>
 
 
     <!-- Answer 03 -->
-      <form onsubmit="addStudent(); return false">
-       <div class="searchbox">
-        <h1 id="studentmanegmenth1">Student Manegment</h1>
-        <label for="">
-            Student Name: <br> <input type="text" id="studentName">
-        </label>
-        <br>
-        <label for="">
-            Batch: <br> <input type="text" id="studentBatch">
-        </label>
-        <br>
-        <button type="submit">Submit</button>
+    <form onsubmit="addStudent(); return false">
+        <div class="searchbox">
+            <h1 id="studentmanegmenth1">Student Manegment</h1>
+            <label for="">
+                Student Name: <br> <input type="text" id="studentName">
+            </label>
+            <br>
+            <label for="">
+                Batch: <br> <input type="text" id="studentBatch">
+            </label>
+            <br>
+            <button type="submit">Submit</button>
         </div>
     </form>
 
@@ -46,18 +64,20 @@
             </tr>
         </thead>
         <tbody id="tbody">
-            
+
         </tbody>
     </table>
 
 
     <!-- Answer 04 -->
-     <div class="changeimg">
-     <img src="images/Google-Pixel-10-Pro-XL-Qmart-2.jpg" id="myImg" onmouseover="changeSource('new')" onmouseleave="changeSource()">
-     </div>
+    <div class="changeimg">
+        <img src="images/Google-Pixel-10-Pro-XL-Qmart-2.jpg" id="myImg" onmouseover="changeSource('new')"
+            onmouseleave="changeSource()">
+    </div>
 
- 
 
-    <script src="script.js" ></script>
+
+    <script src="script.js"></script>
 </body>
+
 </html>

@@ -183,13 +183,13 @@ th {
     
 }
 
-#counter{
+.counter{
     display: flex;
     align-items: center;
     gap: 5px;
 }
 
-#counter button{
+.counter button{
     font-size: 14px;
     font-weight: bolder;
         background-color: white;
@@ -200,7 +200,7 @@ th {
      transition: all 0.3s ease-in-out;
 }
 
-#counter button:hover{
+.counter button:hover{
     background-color: white;
     color: rgb(0, 0, 0);
     transform: scale(1.1);
