@@ -63,3 +63,12 @@ let students = []
                 document.getElementById("myImg").src = "images/samsung-galaxy-s25-ultra-pakistan-priceoye-zmuf1-270x270.webp"
             }
         }
+
+
+// Answer 05
+let number = []
+for(let i=0 ; i <= number.length ; i++){
+    console.log(number.push([i]));
+     break
+    
+}         

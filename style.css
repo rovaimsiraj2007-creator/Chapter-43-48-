@@ -161,3 +161,47 @@ th {
     transform: scale(1.1);
     
 }
+
+#counter{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#counter button{
+    font-size: 14px;
+    font-weight: bolder;
+        background-color: white;
+      font-weight: bold;
+    border: 2px solid black;
+    padding: 4px 8px;
+    border-radius: 10px;
+     transition: all 0.3s ease-in-out;
+}
+
+#counter button:hover{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    transform: scale(1.1);
+}
+
+.mobiles .firstmob{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.mobiles .secondmob{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.mobiles .thirdmob{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
